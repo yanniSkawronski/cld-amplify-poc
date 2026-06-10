@@ -1,9 +1,9 @@
 <!-- todos.component.html -->
 <main>
-    <h1>My todos</h1>
+    <h1>My todos, modified title to trigger deployment</h1>
     <button (click)="createTodo()">+ new</button>
     <ul>
-        <li 
+        <li
             *ngFor="let todo of todos;">
             {{ todo.content }}
         </li>
